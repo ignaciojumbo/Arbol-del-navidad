@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+.contenedor {
+    
+    width: 100%;
+    margin-top: 30px;
+    border: solid black 1px;
+}
+
+.arbol-cont {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+
+}
+
+.estrella {
+    font-size: 30px;
+    width: 100%;
+    height: 30px;
+    animation: color infinite linear 2s;
+}
+
+.parrafo {
+    font-size: 30px;
+    animation: color infinite linear 3s;
+}
+
+@keyframes color {
+    0% {
+        color: rgb(255, 0, 0)
+    }
+
+    25% {
+        color: rgb(255, 255, 255)
+    }
+
+    50% {
+        color: rgb(29, 122, 0)
+    }
+
+    85% {
+        color: rgb(230, 255, 0)
+    }
+
+    100% {
+        color: rgb(255, 0, 0)
+    }
+}
